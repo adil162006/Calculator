@@ -2,7 +2,7 @@ const display = document.getElementById('display');
 const history = document.getElementById('history');
 
 function appendToDisplay(value) {
-    display.value += value;
+    display.value += value;  
 }
 
 function clearDisplay() {
